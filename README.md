@@ -1,37 +1,28 @@
-# Customer Segmentation for a Subscription Service 
-This project involves analyzing customer data for a subscription service to identify segments and trends. Your goal is to understand customer behavior, track subscription types and identify key trends in cancellations and renewals. The final deliverable is a Power BI dashboard that presents your analysis.
+# Customer Segmentation for a Subscription Service
 
-### **Overview**
+This project involves analyzing customer data for a subscription service to identify segments and trends. The main goal is to understand customer behavior, track subscription types and identify key trends in cancellations and renewals. These findings wiil be presented as a Power BI dashboard report that shows the analysis.
 
-The goal of this project was to analyze customer data for a subscription service in order to identify meaningful customer segments, uncover trends in cancellations and renewals, and provide actionable insights that can help the company improve customer retention, increase engagement, and optimize their subscription model. This project involved data exploration, segmentation, and visualization using Power BI, enabling stakeholders to make informed decisions based on data-driven insights.
+## **Overview**
+
+The goal of this project is to analyze customer data for a subscription service in order to identify meaningful customer segments, uncover trends in cancellations and renewals, and provide actionable insights that can help the company improve customer retention, increase engagement, and optimize their subscription model. This project involved data exploration, segmentation, and visualization using Power BI, enabling stakeholders to make informed decisions based on data-driven insights.
 
 ## **Data Sources**
 
-The primary data source for this analysis came from the subscription service's customer database. Key data attributes include:
+The primary data source for this analysis came from the subscription service's customer database (customer data.csv). Key data attributes include:
 
 - **Customer ID**: A unique identifier for each customer.
 - **Subscription Type**: The type of subscription plan (e.g., basic, premium, family, etc.).
 - **Start Date**: The date when the customer subscribed.
 - **End Date**: The date when the customer canceled or renewed their subscription.
-- **Payment Amount**: The monthly payment made by the customer.
-- 
----
-**Churn Indicator**: A binary flag (0 = active, 1 = churned).
-- **Customer Demographics**: Information such as age, location, and gender.
-- **Engagement Metrics**: Data on how often customers interact with the service (e.g., usage frequency, session length, etc.).
-
+- **Payment per year**: The yearly payment made by the customer.
 Additionally, customer behavior data was obtained from website logs and the subscription management system to enhance insights into usage patterns and renewal likelihood.
-
 ---
 
 ## **Tools Used**
 
 - **Power BI**: For building interactive dashboards and visualizations.
 - **SQL**: To query and aggregate data from the company’s database.
-- **Excel**: Used for preliminary data cleaning and small-scale analysis before importing data into Power BI.
-- **Python** (Optional): Used for more advanced data analysis and statistical modeling (e.g., clustering algorithms).
-- **Jupyter Notebooks**: For conducting exploratory data analysis (EDA) and generating Python scripts if required.
-
+- **Microsoft Excel** [Download Here](https://www.microsoft.com): Used for preliminary data cleaning and small-scale analysis before importing data into Power BI.
 ---
 
 ## **Data Cleaning and Preparation**
@@ -39,7 +30,7 @@ Additionally, customer behavior data was obtained from website logs and the subs
 Data cleaning is a crucial step in ensuring the accuracy and reliability of the analysis. The data preparation process involved:
 
 1. **Handling Missing Data**:
-   - Identified and handled missing or null values (e.g., using imputation techniques or dropping records with missing essential fields like subscription type).
+   - Identified and handled missing or null values (e.g., dropping records with missing essential fields like subscription type).
    
 2. **Data Transformation**:
    - Transformed dates (start and end dates) into a usable format for time-series analysis.
@@ -47,14 +38,10 @@ Data cleaning is a crucial step in ensuring the accuracy and reliability of the 
 
 3. **Feature Engineering**:
    - Created new features such as "Subscription Duration" (calculated from the start and end date).
-   - Developed "Churn Duration" as the difference between subscription start date and cancellation date.
+   - Factored in the difference between subscription start date and cancellation date.
    
 4. **Outlier Detection**:
-   - Detected and removed outliers in financial data, such as unusually high payment amounts that were likely errors.
-
-5. **Normalization**:
-   - Applied scaling techniques to customer engagement metrics to standardize the data, making it easier to compare different customer segments.
-
+   - Detected and removed duplicates in the dataset.
 ---
 
 ## **Exploratory Data Analysis (EDA)**
