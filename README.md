@@ -2,6 +2,20 @@
 
 This project involves analyzing customer data for a subscription service to identify segments and trends. The main goal is to understand customer behavior, track subscription types and identify key trends in cancellations and renewals. These findings wiil be presented as a Power BI dashboard report that shows the analysis.
 
+[Overview](#overview)
+
+[Data Sources](#data-sources)
+
+[Tools Used](#tools-used)
+
+[Data Cleaning and Preparation](#data-cleaning-and-preparation)
+
+[Exploratory Data Analysis](#exploratory-data-analysis)
+
+[Data Analysis](#data-analysis)
+
+[Data Visualization](#data-visualization)
+
 ## **Overview**
 
 The goal of this project is to analyze customer data for a subscription service in order to identify meaningful customer segments, uncover trends in cancellations and renewals, and provide actionable insights that can help the company improve customer retention, increase engagement, and optimize their subscription model. This project involved data exploration, segmentation, and visualization using Power BI, enabling stakeholders to make informed decisions based on data-driven insights.
@@ -44,25 +58,21 @@ Data cleaning is a crucial step in ensuring the accuracy and reliability of the 
    - Detected and removed duplicates in the dataset.
 ---
 
-## **Exploratory Data Analysis (EDA)**
+## **Exploratory Data Analysis**
 
-The EDA phase focused on understanding the general patterns in the dataset before diving into deeper analysis. Key steps included:
+The EDA phase is focused on understanding the general patterns in the dataset before diving into deeper analysis. Key steps included:
 
 1. **Univariate Analysis**:
-   - Analyzed the distribution of key variables (e.g., payment amount, subscription type, age).
-   - Visualized the churn rate by subscription type and identified if certain plans had higher churn rates than others.
+   - Analyzed the distribution of key variables (e.g., payment amount, subscription type, region).
+   - Visualized the cancellation rate by subscription type and identified if certain plans had higher rates than others.
    
 2. **Bivariate Analysis**:
-   - Investigated relationships between subscription duration and churn rate.
-   - Explored correlations between customer demographics (e.g., age, gender) and subscription types or churn.
+   - Investigated relationships between subscription duration and cancellation rate.
+   - Explored correlations between customer demographics (e.g., region and subscription types)
 
 3. **Time Series Analysis**:
    - Identified seasonality trends in subscription renewals and cancellations.
    - Investigated if cancellations spiked during particular months or seasons.
-   
-4. **Segmentation**:
-   - Used clustering techniques (e.g., K-means) to segment customers based on their engagement level, payment history, and subscription type. This helped uncover distinct customer profiles (e.g., "high engagement" vs "low engagement").
-
 ---
 
 ## **Data Analysis**
