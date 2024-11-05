@@ -94,7 +94,65 @@ During the data analysis phase, I performed deeper statistical analysis and mach
 
 3. **Retention Analysis**:
    - Analyzed the impact of different customer retention strategies (e.g., discounts, personalized offers) by comparing renewal rates across customer segments.
-   
+
+
+  #### SQL QUERIES
+   I used SQL to extract specific insights from the dataset, such as:
+- Monthly sales totals
+- Product category performance
+- Customer retention rates
+
+```SQL
+SELECT * FROM [dbo].[Customer Data]
+
+---------Retrieve the total number of customers from each region
+SELECT Region, COUNT(CustomerID) AS Total_No_of_Customers 
+FROM [dbo].[Customer Data] 
+GROUP BY Region
+
+---------Find the most popular subscription type by the number of customers
+SELECT SubscriptionType, COUNT(CustomerID) AS NO_Of_Customers 
+FROM [dbo].[Customer Data] 
+GROUP BY SubscriptionType
+
+---------Find customers who canceled their subscription within 6 months 
+SELECT CustomerName,Canceled,SubscriptionStart 
+FROM [dbo].[Customer Data] 
+WHERE Canceled =0 AND MONTH(SubscriptionStart) BETWEEN 1 AND 6
+
+---------Calculate the average subscription duration for all customers 
+SELECT Count(CustomerID) As All_Customers, 
+AVG(DATEDIFF(DAY,SubscriptionStart,SubscriptionEnd)) AS Average_Subscription_Duration 
+FROM [dbo].[Customer Data] 
+WHERE SubscriptionEnd IS NOT NULL 
+
+---------Find customers with subscriptions longer than 12 months
+SELECT CustomerName,SubscriptionType,SubscriptionStart,SubscriptionEnd 
+FROM [dbo].[Customer Data] 
+WHERE DATEDIFF(MONTH,SubscriptionStart,SubscriptionEnd) >=12
+ 
+ ---------Subscriptions longer than 12 months
+SELECT CustomerName,SubscriptionType,SubscriptionStart,SubscriptionEnd 
+FROM [dbo].[Customer Data] 
+WHERE DATEDIFF(MONTH,SubscriptionStart,SubscriptionEnd) >12
+
+---------Calculate total revenue by subscription type
+SELECT SubscriptionType, SUM(Revenue) AS Total_Revenue 
+FROM[dbo].[Customer Data] 
+GROUP BY SubscriptionType 
+
+---------Find the top 3 regions by subscription cancellations
+SELECT TOP 3 Region,Canceled 
+FROM [dbo].[Customer Data]
+
+---------Find the total number of active and canceled subscriptions
+SELECT 
+SUM(CASE WHEN Canceled = 0 THEN 1 ELSE 0  END) AS ActiveSubscriptions, 
+SUM (CASE WHEN Canceled = 1 THEN 1 ELSE 0 END) AS CanceledSubscriptions 
+FROM [dbo].[Customer Data] 
+GROUP BY CustomerID
+```
+
 ---
 
 ## **Data Visualization**
