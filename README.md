@@ -188,6 +188,21 @@ The Power BI dashboard was designed to present the findings in an easily digesti
 
 ![CustomerTable](https://github.com/user-attachments/assets/feec18c9-ac13-4144-a3fb-75973513051f)
 
+![YearTable](https://github.com/user-attachments/assets/dee99f12-ba2c-4aaa-9b7c-2dd94603917b)
+
+![CancelationRate](https://github.com/user-attachments/assets/cd2c454d-b289-4c49-b20d-cf15bdf521f8)
+
+![Rev Table](https://github.com/user-attachments/assets/ded26572-f98d-42d2-8fd1-d0ad2f23755f)
+
+![Ave Subscription Rate](https://github.com/user-attachments/assets/fe79aad7-ba0d-4790-9061-6aa9b951c231)
+
+![Rev SubType Region](https://github.com/user-attachments/assets/3e48b382-ad8a-4061-b0e5-86432d11b805)
+
+![Canceled Renewed](https://github.com/user-attachments/assets/ba22396a-8313-4280-bb97-be40c527128d)
+
+![CustomerRegion Table](https://github.com/user-attachments/assets/3e437f9a-adec-428b-85ff-abbf43ac5185)
+
+![Rev RegionTable](https://github.com/user-attachments/assets/cf77a5bf-d300-42e7-b870-11ac154f9e4f)
 
 2. **Churn Trends**:
    - A line chart displaying monthly churn rates, segmented by subscription type, to identify if cancellations are seasonal or driven by specific events.
