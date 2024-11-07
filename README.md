@@ -160,49 +160,49 @@ The Power BI dashboard was designed to present the findings in an easily digesti
    - A pie chart showing the distribution of customers across different segments (e.g., high value, at-risk, etc.).
    - A bar chart to visualize churn rates by subscription type.
 
-![PowerBI Dashaboard](https://github.com/user-attachments/assets/1e4a4efd-ded4-4741-a679-3ecd15774a0e)
+[PowerBI Dashaboard](https://github.com/user-attachments/assets/1e4a4efd-ded4-4741-a679-3ecd15774a0e)
 
-![Standard](https://github.com/user-attachments/assets/04c26acd-9f97-4355-a3a4-2acedf48b048)
+[Standard](https://github.com/user-attachments/assets/04c26acd-9f97-4355-a3a4-2acedf48b048)
 
-![Basic](https://github.com/user-attachments/assets/fa4df226-55d4-473e-a7e4-56487e36214f)
+[Basic](https://github.com/user-attachments/assets/fa4df226-55d4-473e-a7e4-56487e36214f)
 
-![Premium](https://github.com/user-attachments/assets/236bda1f-d8c5-4681-a46e-5898e373b9d9)
+[Premium](https://github.com/user-attachments/assets/236bda1f-d8c5-4681-a46e-5898e373b9d9)
 
-![Yearly Subscription Trend](https://github.com/user-attachments/assets/241f2a62-e898-4faa-9a93-ebfd7221fe6a)
+[Yearly Subscription Trend](https://github.com/user-attachments/assets/241f2a62-e898-4faa-9a93-ebfd7221fe6a)
 
-![Subscription Rate](https://github.com/user-attachments/assets/e90d8f42-85a9-4883-ac1e-47df84d2c363)
+[Subscription Rate](https://github.com/user-attachments/assets/e90d8f42-85a9-4883-ac1e-47df84d2c363)
 
-![Rev Region](https://github.com/user-attachments/assets/1a7460e2-d3ae-4038-b0b5-33c7437434d1)
+[Rev Region](https://github.com/user-attachments/assets/1a7460e2-d3ae-4038-b0b5-33c7437434d1)
 
-![Rev Subscription](https://github.com/user-attachments/assets/b733313f-0470-42a9-b8ba-935f8ba03bac)
+[Rev Subscription](https://github.com/user-attachments/assets/b733313f-0470-42a9-b8ba-935f8ba03bac)
 
-![Monthly Trend](https://github.com/user-attachments/assets/91c28237-1dae-47e0-989d-9f3abb8c41f5)
+[Monthly Trend](https://github.com/user-attachments/assets/91c28237-1dae-47e0-989d-9f3abb8c41f5)
 
-![Pie Chart Rev](https://github.com/user-attachments/assets/c8dd8369-f2cb-4321-9b38-57e415c4cf30)
+[Pie Chart Rev](https://github.com/user-attachments/assets/c8dd8369-f2cb-4321-9b38-57e415c4cf30)
 
-![Customer Chart](https://github.com/user-attachments/assets/8613bf93-9e68-457c-978a-b6d47c4409a6)
+[Customer Chart](https://github.com/user-attachments/assets/8613bf93-9e68-457c-978a-b6d47c4409a6)
 
-![BarChart Rev Region](https://github.com/user-attachments/assets/0b86a2dd-6aa1-4c85-aced-e727a1b33dd2)
+[BarChart Rev Region](https://github.com/user-attachments/assets/0b86a2dd-6aa1-4c85-aced-e727a1b33dd2)
 
-![Customer Region](https://github.com/user-attachments/assets/3f2cc1c9-198d-4cd1-82e5-b502c8254f57)
+[Customer Region](https://github.com/user-attachments/assets/3f2cc1c9-198d-4cd1-82e5-b502c8254f57)
 
-![CustomerTable](https://github.com/user-attachments/assets/feec18c9-ac13-4144-a3fb-75973513051f)
+[CustomerTable](https://github.com/user-attachments/assets/feec18c9-ac13-4144-a3fb-75973513051f)
 
-![YearTable](https://github.com/user-attachments/assets/dee99f12-ba2c-4aaa-9b7c-2dd94603917b)
+[YearTable](https://github.com/user-attachments/assets/dee99f12-ba2c-4aaa-9b7c-2dd94603917b)
 
-![CancelationRate](https://github.com/user-attachments/assets/cd2c454d-b289-4c49-b20d-cf15bdf521f8)
+[CancelationRate](https://github.com/user-attachments/assets/cd2c454d-b289-4c49-b20d-cf15bdf521f8)
 
-![Rev Table](https://github.com/user-attachments/assets/ded26572-f98d-42d2-8fd1-d0ad2f23755f)
+[Rev Table](https://github.com/user-attachments/assets/ded26572-f98d-42d2-8fd1-d0ad2f23755f)
 
-![Ave Subscription Rate](https://github.com/user-attachments/assets/fe79aad7-ba0d-4790-9061-6aa9b951c231)
+[Ave Subscription Rate](https://github.com/user-attachments/assets/fe79aad7-ba0d-4790-9061-6aa9b951c231)
 
-![Rev SubType Region](https://github.com/user-attachments/assets/3e48b382-ad8a-4061-b0e5-86432d11b805)
+[Rev SubType Region](https://github.com/user-attachments/assets/3e48b382-ad8a-4061-b0e5-86432d11b805)
 
-![Canceled Renewed](https://github.com/user-attachments/assets/ba22396a-8313-4280-bb97-be40c527128d)
+[Canceled Renewed](https://github.com/user-attachments/assets/ba22396a-8313-4280-bb97-be40c527128d)
 
-![CustomerRegion Table](https://github.com/user-attachments/assets/3e437f9a-adec-428b-85ff-abbf43ac5185)
+[CustomerRegion Table](https://github.com/user-attachments/assets/3e437f9a-adec-428b-85ff-abbf43ac5185)
 
-![Rev RegionTable](https://github.com/user-attachments/assets/cf77a5bf-d300-42e7-b870-11ac154f9e4f)
+[Rev RegionTable](https://github.com/user-attachments/assets/cf77a5bf-d300-42e7-b870-11ac154f9e4f)
 
 2. **Churn Trends**:
    - A line chart displaying monthly churn rates, segmented by subscription type, to identify if cancellations are seasonal or driven by specific events.
