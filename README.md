@@ -160,13 +160,13 @@ The Power BI dashboard was designed to present the findings in an easily digesti
    - A pie chart showing the distribution of customers across different segments (e.g., high value, at-risk, etc.).
    - A bar chart to visualize churn rates by subscription type.
 
-[PowerBI Dashaboard](https://github.com/user-attachments/assets/1e4a4efd-ded4-4741-a679-3ecd15774a0e)
+![PowerBI Dashaboard](https://github.com/user-attachments/assets/1b7646e2-be4e-49a1-aeb7-7e52b61047c6)
 
-[Standard](https://github.com/user-attachments/assets/04c26acd-9f97-4355-a3a4-2acedf48b048)
+![Basic](https://github.com/user-attachments/assets/93dbf1a7-1139-42fe-b19b-c1b9c931e257)
 
-[Basic](https://github.com/user-attachments/assets/fa4df226-55d4-473e-a7e4-56487e36214f)
+![Standard](https://github.com/user-attachments/assets/c6df4665-4fd0-4aa4-ac5e-f15c756a0c1b)
 
-[Premium](https://github.com/user-attachments/assets/236bda1f-d8c5-4681-a46e-5898e373b9d9)
+![Premium](https://github.com/user-attachments/assets/262c7b64-2277-4fc9-bb9b-8800a9b7e41d)
 
 [Yearly Subscription Trend](https://github.com/user-attachments/assets/241f2a62-e898-4faa-9a93-ebfd7221fe6a)
 
